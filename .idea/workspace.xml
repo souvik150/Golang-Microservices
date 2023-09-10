@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6c4c33-9206-4c91-bfa0-528608014669" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/broker-service/event/consumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/broker-service/event/emitter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/broker-service/event/event.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listener-service/event/consumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listener-service/event/event.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listener-service/listener-service.dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listener-service/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broker-service/logs/generate.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broker-service/logs/logs.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger-service/cmd/api/grpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger-service/cmd/api/rpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger-service/logs/generate.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger-service/logs/logs.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authentication-service/authApp" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-service/authApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/brokerApp" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/brokerApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/cmd/api/routes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/broker-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/broker-service/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/frontApp" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/frontApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/cmd/web/templates/test.page.gohtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listener-service/listenerApp" beforeDir="false" afterPath="$PROJECT_DIR$/listener-service/listenerApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger-service/loggerServiceApp" beforeDir="false" afterPath="$PROJECT_DIR$/logger-service/loggerServiceApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail-service/mailerApp" beforeDir="false" afterPath="$PROJECT_DIR$/mail-service/mailerApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/project/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Makefile.windows" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +47,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2VAVRog6vr8RRC8ukPidjF4AZkP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,14 +69,21 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/souvik150/Souvik/Personal/Microservices/go-micro/broker-service",
+    "last_opened_file_path": "/home/souvik150/Souvik/Personal/Microservices/go-micro/broker-service/logs",
     "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/broker-service/logs" />
       <recent name="$PROJECT_DIR$/broker-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/broker-service" />
+      <recent name="$PROJECT_DIR$/front-end" />
+      <recent name="$PROJECT_DIR$/logger-service/cmd/api" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
