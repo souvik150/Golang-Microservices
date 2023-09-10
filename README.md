@@ -1,3 +1,12 @@
 # Golang-Microservices
 
-Learning Microservices and golang from a course
+Learning Microservices in golang.
+
+Features :-
+- authentication
+- email
+- logger
+- mongodb
+- postgres
+- rabbitmq
+- gRPC
